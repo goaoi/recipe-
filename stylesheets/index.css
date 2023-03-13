@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+ 　body{
+   position: relative;
+ }
+  .header-nav 
+  {
+    background-color: rgb(245, 239, 214);
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    z-index: 10;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  
+  }
+  .header-nav a 
+  {
+    color: #8A4B08;
+    text-decoration: none;
+  }
+  
+  .header-nav a:hover {
+    color: #FF8000;
+  }
+
+  h4 {
+    /*線の種類（実線） 太さ 色*/
+    border-bottom: solid 3px black;
+    margin-right: 680px;
+  }
+  
+  nav {
+    margin-right: 5%;
+  }
+  #first-block {
+    background-color: #F6CECE;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title-container {
+    text-align: right;
+  }
+  
+  h1 {
+    font-size: 50px;
+    font-family: serif;
+    color: #444;
+  }
+  
+  h3 {
+    font-size: 35px;
+    font-family: serif;
+    color: #444;
+  }
+  .carousel {
+    height: 290px;
+    margin-top: 58px;
+    border-top: 0px;
+    margin-right: 10px;
+  }
+  .carousel img {
+    height: 290px;
+  }
+  #second-block {
+    background-color: #F5A9A9;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title-container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 50px;
+    font-family: serif;
+    color: #444;
+  }
+  
+  h3 {
+    font-size: 35px;
+    font-family: serif;
+    color: #444;
+  }
+  .carousel2 {
+    height: 290px;
+    border-top: 0px;
+    margin-bottom: 58px;
+  }
+  .carousel2 img {
+    height: 290px;
+  }
+  #third-block {
+    background-color: #f78181;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title-container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 50px;
+    font-family: serif;
+    color: #444;
+  }
+  
+  h3 {
+    font-size: 35px;
+    font-family: serif;
+    color: #444;
+  }
+  .carousel3 {
+    height: 290px;
+    border-top: 0px;
+    margin-bottom: 58px;
+  }
+  .carousel3 img {
+    height: 290px;
+  }
+  
+  #fifth-block {
+    background-color: hsl(61, 88%, 87%);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  
+  .events-title {
+    font-size: 50px;
+    font-family: serif;
+    color: #444;
+  }
+  
+  .info-container {
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .info-box {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+
+  }
+
+  
+  .font-small {
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  span {
+    font-size: 20px;
+    font-family: serif;
+  }
+  
+
+  /*   Third block End   */
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 50px;
+    background-color: #000;
+    font-size: 15px;
+    color: #fff;
+  }
+
+.carousel {
+  height: 290px;
+  margin-top: 58px;
+}
+.carousel img {
+  height: 290px;
+
+}
